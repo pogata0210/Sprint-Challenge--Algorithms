@@ -13,5 +13,6 @@ c) The time comlexity would be o(N). Recursive function has a liner time complex
 
 ## Exercise II
 loop trhough the number n, and each time it get's looped we dived the value of storage by 1/2. we need one correct move to find the value of f. Once we find the value set that as the new f. 
+o(logN) would be the time complexity
 binary 
 

@@ -14,7 +14,7 @@ def count_th(word):
     
     if word == "": #if empty return nothing because you can't have th in 0 string
         return 0
-    if key in word[0:3]:
+    if key in word[0:2]:
         return 1 + count_th(word[1:])
     else:
         return count_th(word[1:])
